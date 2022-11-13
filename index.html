@@ -9,33 +9,35 @@
   </head>
   
   <body>
-    <main>
-      <div>
+    <main id="card">
+      <div class="background-image">
         <img src="./images/bg-pattern-card.svg" aria-disabled="true" />
       </div>
 
-      <div>
+      <div id="profile-image">
         <img src="./images/image-victor.jpg" alt="Victor profile photo" />
       </div> 
      
-      <article>
-        <h3><span>Victor Crest</span> 26</h3>
-        <p>London</p>
+      <article class="profile-info">
+        <section class="profile-info__personal">
+          <h3><span>Victor Crest</span> 26</h3>
+          <p>London</p>
+        </section>
 
-        <section>
-          <div>
-            <h3><span>80K</span></h3>
-            <p>Followers</p>
+        <section class="profile-info__stats">
+          <div class="profile-info__stat">
+            <h3 class="profile-info__stat-num"><span>80K</span></h3>
+            <p class="profile-info__stat-class">Followers</p>
           </div>
 
-          <div>
-            <h3><span>803K</span></h3>
-            <p>Likes</p>
+          <div class="profile-info__stat">
+            <h3 class="profile-info__stat-num"><span>803K</span></h3>
+            <p class="profile-info__stat-class">Likes</p>
           </div>
 
-          <div>
-            <h3><span>1.4K</span></h3>
-            <p>Photos</p>
+          <div class="profile-info__stat">
+            <h3 class="profile-info__stat-num"><span>1.4K</span></h3>
+            <p class="profile-info__stat-class">Photos</p>
           </div>
         </section>
       </article>
