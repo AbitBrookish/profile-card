@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -10,7 +12,29 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  display: grid;
+  place-content: center;
 }
+
+/* font styles */
+
+main {
+  font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#location {
+  font-size: 14px;
+}
+
+.profile-info__stat-class {
+  font-size: 12px;
+}
+
+p {
+  color: hsl(0, 0%, 59%);
+}
+
 
 
 .attribution { 
