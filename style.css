@@ -35,6 +35,13 @@ p {
   color: hsl(0, 0%, 59%);
 }
 
+/* card and section positioning */
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 
 .attribution { 
